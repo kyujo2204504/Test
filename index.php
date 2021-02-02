@@ -11,6 +11,7 @@ if (isset($_SESSION["NAME"])) {
     exit;
   }elseif($_SESSION["Lev"]==2){
     header("Location: Zemisei.php");
+    exit;
   }
 }
 header("Location: logout.php");
